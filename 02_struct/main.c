@@ -19,7 +19,6 @@ struct emp
 void print_emps(struct emp *a, int n);
 int main()
 {
-	/*
 	//struct emp arr[3] = { {1, "A", 100.0}, {2, "B", 200.0}, {3, "C", 300.0} };
 	struct emp arr[3];
 	int i;
@@ -29,14 +28,7 @@ int main()
 		scanf("%d%s%lf", &arr[i].id, arr[i].name, &arr[i].sal);
 	}
 	print_emps(arr, 3);
-	*/
-
-	struct test {
-		int a;
-		short b;
-		char c;
-	};
-	printf("size = %lu\n", sizeof(struct test));
+	
 	return 0;
 }
 
